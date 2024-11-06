@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="hu"></html>
 <!--A rólunk oldal-->
 <!--Ide jönnek a mindenféle elérhetőségeink, felhasznált szoftverek (pl most a weboldal esetében a netlify, meg a github), stb.-->
 <html>
     <background><img src="Desktop-Dark-Blue-Wallpapers.png"></background>
     <head>
-        <title>ÁrpádSat - ABOUT</title>
+        <title>ÁrpádSat - RÓLUNK</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=0.8">
         <link rel="stylesheet" href="style.css">
@@ -16,13 +16,13 @@
             <img src="logo.jpg" width="205" height="41" class="logo">
             <nav class="navigation">
                 <a href="index.html" class="navigation2 navelem2"><ion-icon name="home"></ion-icon>Home</a>
-                <a href="about.html" class="navigation2 navelem2"><ion-icon name="card"></ion-icon>About</a>
-                <a href="docs.html" class="navigation2 navelem2"><ion-icon name="list"></ion-icon>Docs</a>
-                <a href="tervek.html" class="navigation2 navelem2"><ion-icon name="barbell"></ion-icon>Plans</a>
-                <a href="tesztek.html" class="navigation2 navelem2"><ion-icon name="checkmark-done"></ion-icon> Tests</a>
-                <a href="calendar.html" class="navigation2 navelem2"><ion-icon name="calendar-number"></ion-icon> Schedule</a>
-                <button class="languageen navigation2 navelem2">EN</button>
-                <a href="hun/about.html"><button class="languagehu navigation2 navelem2" onclick="clh()">HU</button></a>
+                <a href="about.html" class="navigation2 navelem2"><ion-icon name="card"></ion-icon>Rólunk</a>
+                <a href="docs.html" class="navigation2 navelem2"><ion-icon name="list"></ion-icon>Dokumentációink</a>
+                <a href="second.html" class="navigation2 navelem2"><ion-icon name="barbell"></ion-icon>Másodlagos küldetésünk</a>
+                <a href="news.html" class="navigation2 navelem2"><ion-icon name="checkmark-done"></ion-icon>Blog</a>
+                <a href="calendar.html" class="navigation2 navelem2"><ion-icon name="calendar-number"></ion-icon>Ütemtervünk</a>
+                <a href="../index.html"><button class="languageen navigation2 navelem2">EN</button></a>
+                <button class="languagehu navigation2 navelem2">HU</button>
             </nav>
             <button class="checkresp restat" onclick="respat()"><ion-icon name="menu"></ion-icon></button>
             <button class="checkresp restat2" onclick="respat2()"><ion-icon name="close"></ion-icon></button>
@@ -30,82 +30,91 @@
         <header2 class="header2">
             <nav class="navigation">
                 <h3 class="navetext navelem">Navbar</h3>
-                <a href="index.html" class="navigation2 navelem"><ion-icon name="home"></ion-icon>    Home</a>
-                <a href="about.html" class="navigation2 navelem"><ion-icon name="card"></ion-icon>    About</a>
-                <a href="docs.html" class="navigation2 navelem"><ion-icon name="list"></ion-icon>    Docs</a>
-                <a href="tervek.html" class="navigation2 navelem"><ion-icon name="barbell"></ion-icon>    Plans</a>
-                <a href="tesztek.html" class="navigation2 navelem"><ion-icon name="checkmark-done"></ion-icon> Tests</a>
-                <a href="calendar.html" class="navigation2 navelem"><ion-icon name="calendar-number"></ion-icon> Schedule</a>
+                <a href="index.html" class="navigation2 navelem"><ion-icon name="home"></ion-icon>Home</a>
+                <a href="about.html" class="navigation2 navelem"><ion-icon name="card"></ion-icon>Rólunk</a>
+                <a href="docs.html" class="navigation2 navelem"><ion-icon name="list"></ion-icon>Dokumentációink</a>
+                <a href="second.html" class="navigation2 navelem"><ion-icon name="barbell"></ion-icon>Másodlagos küldetésünk</a>
+                <a href="news.html" class="navigation2 navelem"><ion-icon name="checkmark-done"></ion-icon>Blog</a>
+                <a href="calendar.html" class="navigation2 navelem"><ion-icon name="calendar-number"></ion-icon>Ütemtervünk</a>
             </nav>
             <nav class="navigation ln">
-                <button class="languageen navigation2 navelem2">EN</button>
-                <a href="hun/about.html"><button class="languagehu navigation2 navelem2" onclick="clh()">HU</button></a>
+                <a href="../index.html"><button class="languageen navigation2 navelem2">EN</button></a>
+                <button class="languagehu navigation2 navelem2">HU</button>
             </nav>
         </header2>
-        <h2 class="title sidetitle">About us</h2>
+        <h2 class="title sidetitle">Rólunk</h2>
         <about class="about">
-            <!--Itt vannak az elérhetőségeink, majd gondolom kellenek fotók, egyelőre még nem sokakhoz írtam oda konkrét feladatot-->
             <about-intro class="about-intro about-content">
                 <h4>
-                    We are the ÁrpádSat team norminated for the CanSat competition. We are all students of the Óbudai Árpád Gimnázium's 9B class. We do the tasks together, we aid each other, but we still know who has the main tasks and what they are responsible for.
+                    Mi vagyunk az ÁrpádSat csapat. Tagjaink mind az Óbudai Árpád Gimnázium 10/B osztályos tanulói. Iskolánk minden évben 4 osztályt indít, 3 hat évfolyamos osztályt (A osztály: angol tagozat; B osztály: speciális matematika tagozat; C osztály: fele természettudományi, fele német nyelvi tagozat), és egy 4 évfolyamos osztályt (D osztály: fele angol és fele német nyelvi tagozat). Csapatunk tagjainak részletesebb bemutatkozása:
                 </h4>
+            </about-intro>
+            <about-intro class="about-intro about-content csoportkep">
+                <h3>ide kerül majd a csapatkép</h3>
             </about-intro>
             <div class="about-content2 about-content">
                 <iframe width="378" height="213" src="https://www.youtube.com/embed/Ov0oo_-O9Eo?si=JZ82pHnnGKAYh7ld" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <csapattagok class="about-content about-content2 csapattagok">
-                <h3 class="title title2">Team members</h3>
+                <h3 class="title title2">Csapattagok</h3>
                 <gabor class="gabor about-content">
                     <h3>Bognár Gábor</h3>
-                    <p>I write, and translate the CDR document, and I plan the parts of the project that involves hardware.</p>
+                    <p>16 éves vagyok, többek között én a CanSat-ünk ismeretterjesztő és kommunikációs feladataiért vagyok felelős. Ezek mellett angol tudásommal a csapatunk idegen nyelvű feladatait is én csinálom. Életemben fontos szerepet játszik a zene. 8 éve játszom ütőhangszereken, illetve 4 éve zongorázom. Ezek mellett iskolánk kórusában is éneklek, a legtöbb extra projektben -többek között nemzetközi versenyeken is- részt veszek. Mostanában zeneírással (dobszerelésre) is próbálkozom.</p>
                     <p>E-mail: <a href="mailto:gabor8268@gmail.com">gabor8268@gmail.com</a></p>
                 </gabor>
                 <huba class="huba about-content">
                     <h3>Debreczeni Huba</h3>
-                    <p>I carry out the team's outreach duties, and the 3D renders. I am also responsible for the website and social media channels.</p>
+                    <p>16 éves vagyok, én vagyok a weboldalunk fejlesztője/programozója, én tervezem meg a 3D modelleket, 3D nyomtatást, 3D rendereket, terveket. Nagyon szeretem a tömegközlekedési eszközöket, jelenleg a legjobban a vasút érdekel, azon belül különösen az elektronika és bármilyen érdekes (akár teljesen mechanikai) szerkezet is. Szeretem a zenét, 10 éve zongorázom és több csapattársamhoz hasonlóan az iskolánk kórusában is aktív vagyok, sőt szoktam komponálni saját zenét is (leginkább zongorára írt darabokat, de többször szimfonikus hangszerelésre is, amellett, hogy elektronikusan kis filmhez sound design jellegű „zenét” is szoktam alkotni). Még főbb érdeklődési köreim közé tartozik az informatika, az ezzel kapcsolatos kutatások, fejlődések (pl. AI), plusz a programozás is. A Gimnáziumunkban tagja vagyok az úgynevezett Árpád Média Önképző körnek is (ÁMÖK), az ide kapcsolható érdeklődési köreim a rendezvényeken való hangosítás, fényezés (ezeket szeretem csinálni én a legjobban), a filmforgatás és a videóvágás, képszerkesztés, hangszerkesztés, bármiféle ide kapcsolható szoftver és ide sorolható a 3D nyomtatás is, ugyanis az is onnan jött, hogy az ÁMÖK árpádban található stúdiójában található 3D nyomtató is, aminek segítségével elkezdhettem bővíteni ezen ismereteimet is, a csapat munkáját segítve.</p>
                     <p>E-mail: <a href="mailto:huba.debreczeni@gmail.com">huba.debreczeni@gmail.com</a></p>
                 </huba>
                 <marci class="marci about-content">
                     <h3>Jamniczky Márton</h3>
-                    <p>I manage the return system, the planning and the production of our CanSat’s parachute.</p>
+                    <p>A csapat fiatalabbik feléhez tartozom, 15 éves vagyok. A csapatbeli szerepem tavaly többek között a visszatérési rendszer kidolgozása volt, de tekintve, hogy erre idén nem lesz szükség, csapatunk facebook oldaláért vagyok felelős Gáborral, és a hardverrel kapcsolatos feladatokban segédkezem. A zene számomra is nagyon sokat jelent, sokáig zongoráztam is, ám most már csak az iskolai kórus maradt. Aktív tagja vagyok egy cserkészcsapatnak, és a természethez is szorosan kötődöm.</p>
                     <p>E-mail: <a href="mailto:jamniczky.marton@gmail.com">jamniczky.marton@gmail.com</a></p>
                 </marci>
                 <zsolti class="zsolti about-content">
                     <h3>Mihály Zsolt</h3>
-                    <p> I code the CanSat’s and the ground station’s software.</p>
+                    <p>Én felelek a CanSat és a földi állomás szoftveres részéért.</p>
                     <p>E-mail: <a href="mailto:m.zsolti06@gmail.com">m.zsolti06@gmail.com</a></p>
                 </zsolti>
                 <mk class="mk about-content">
                     <h3>Miklósi-Kovács Dániel</h3>
-                    <p> I coordinate our team, help with the assembling of the hardware and lead the overlays in the project.</p>
+                    <p>16 éves vagyok, a CanSat-ünk hardverével kapcsolatos feladatok és a szervezés az én hatásköröm. Érdekel az űrutazás és az űrkutatás, ezek mindennapi történéseit nyomon követem egy ideje. Másik nagyobb érdeklődési köröm minden, ami a természettel kapcsolatos, különösen a madarak világa nyűgöz le, amiről nagyon sokat tudok. Szeretek kirándulni, gombászni, madárgyűrűzéseken önkénteskedem. A zenét én is szeretem, gitároztam 6 évet és iskolánk kórusában éneklek.</p>
                     <p>E-mail: <a href="mailto:miklosikovacs.daniel@gmail.com">miklosikovacs.daniel@gmail.com</a></p>
                 </mk>
                 <mentor class="mentor about-content">
-                    <h3>Neumayerné Manger Viktória Zsuzsanna</h3>
-                    <p>Our mentor, who assists the team in checking the physical formulas that we use.</p>
-                    <p>E-mail: <a href="mailto:manger.viktoria@arpadgimnazium.hu">manger.viktoria@arpadgimnazium.hu</a></p>
+                    <h3>Blumenau-Szabó Zsuzsanna</h3>
+                    <p>Csapatunk mentora, aki a csapat előrehaladását, valamint a fizikai számításaink helyességét ellenőrzi.</p>
+                    <p>E-mail: <a href="mailto:blumenau-szabo.zsuzsanna@arpadgimnazium.hu">blumenau-szabo.zsuzsanna@arpadgimnazium.hu</a></p>
                 </mentor>
             </csapattagok>
             <kapcsolatok class="about-content about-content2 kapcsolatok">
-                <h3 class="title title2">Connections</h3>
+                <h3 class="title title2">Kapcsolatok</h3>
                 <email class="email about-content">
-                    <h3>Our joint e-mail address:</h3>
+                    <h3>Közös e-mail címünk:</h3>
                     <a href="mailto:arpadsat@gmail.com">arpadsat@gmail.com</a>
                 </email>
                 <youtube class="youtube about-content">
-                    <h3>Our YouTube channel:</h3>
-                    <p>
-                        We upload videos of what we do to YouTube, for example: Tests and experiments performed with it and 3D renders of our virtually designed CanSat, where we show the CanSat's structure, interior, components.
+                    <h3>YouTube csatornánk:</h3>
+                    <p>YouTube-ra töltjük fel a videóinkat, amiket csinálunk, többek között például:
+                        Tesztjeinket, kísérleteinket és olyan 3D videó rendereket a virtuálisan megtervezett CanSat-ünkről, amelyekben bemutatjuk a CanSat-ünk felépítését, belsejét, összetevőit.
                     </p>
-                    <a href="https://www.youtube.com/channel/UC7cv8CSyxpXw3WFumMLsNEQ">Our YoutTube channel</a>
+                    <a href="https://www.youtube.com/channel/UC7cv8CSyxpXw3WFumMLsNEQ">YouTube csatornánk</a>
                 </youtube>
+                <facebook class="facebook about-content">
+                    <h3>Facebook oldalunk:</h3>
+                    <p>YouTube-ra töltjük fel a videóinkat, amiket csinálunk, többek között például:
+                        Tesztjeinket, kísérleteinket és olyan 3D videó rendereket a virtuálisan megtervezett CanSat-ünkről, amelyekben bemutatjuk a CanSat-ünk felépítését, belsejét, összetevőit.
+                    </p>
+                    <a href="https://www.facebook.com/profile.php?id=61567561090290">Facebook oldalunk</a>
+                </facebook>
             </kapcsolatok>
             <github class="origamma about-content">
-                <h3>The source code of this website is in a GitHub repository:</h3>
+                <h3>Ennek a weboldalnak a forráskódja egy GitHub repository-ban van:</h3>
                 <a href="https://github.com/Debreczeni-Huba/ArpadSat">ArpadSat repository GitHub</a>
             </github>
             <netlify class="netlify about-content">
-                <h3>The link to the website is provided by netlify using the GitHub repository:</h3>
+                <h3>A weboldalnak a linkjét a netlify szolgáltatja a GitHub repository felhasználásával:</h3>
                 <a href="https://www.netlify.com/">Netlify</a>
             </netlify>
         </about>
