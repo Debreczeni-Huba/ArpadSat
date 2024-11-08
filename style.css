@@ -376,3 +376,50 @@ docs:hover {
     justify-content:left;
     margin-top: 0px;
 }
+
+.window {
+    position:absolute;
+    width: 500px;
+    height: 600px;
+    background:transparent;
+    backdrop-filter: blur(20px);
+    background-color: rgba(40, 40, 40, .5);
+    border: 2px solid rgba(100, 100, 100, .7);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(100, 100, 100, .5);
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    overflow:hidden;
+    transform: scale(0);
+    transition: transform .5s ease, height .5s ease;
+    z-index: 10;
+    color: white;
+}
+
+.window.active-popup {
+    transform: scale(1);
+}
+
+.window .icon-close {
+    position:fixed;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #162938;
+    font-size: 2em;
+    color: #fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-bottom-left-radius: 10px;
+    cursor:pointer;
+    z-index: 1;
+    transition: .5s;
+}
+
+.window .icon-close:hover {
+    background: #990000;
+}
