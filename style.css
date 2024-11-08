@@ -379,7 +379,7 @@ docs:hover {
 
 .window {
     position:absolute;
-    width: 500px;
+    width: 400px;
     height: 600px;
     background:transparent;
     backdrop-filter: blur(20px);
@@ -392,15 +392,24 @@ docs:hover {
     justify-content:flex-start;
     align-items:flex-start;
     overflow:hidden;
-    transform: scale(0);
     transition: transform .5s ease, height .5s ease;
     z-index: 10;
     color: white;
 }
 
-.window.active-popup {
-    transform: scale(1);
-}
+.gb {transform: scale(0);}
+.hb {transform: scale(0);}
+.mb {transform: scale(0);}
+.db {transform: scale(0);}
+.zsb {transform: scale(0);}
+.bb {transform: scale(0);}
+
+.gb.active-popup {transform: scale(1);}
+.hb.active-popup {transform: scale(1);}
+.mb.active-popup {transform: scale(1);}
+.db.active-popup {transform: scale(1);}
+.zsb.active-popup {transform: scale(1);}
+.bb.active-popup {transform: scale(1);}
 
 .window .icon-close {
     position:fixed;
