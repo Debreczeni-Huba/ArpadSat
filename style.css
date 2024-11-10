@@ -401,8 +401,9 @@ docs:hover {
 .window h3 {
     margin: 15px;
     margin-top:30px;
+    color: #6bbfff;
 }
-.window p {margin:15px;}
+.window p {margin:15px; color: #6bbfff;}
 
 .gb {transform: scale(0);}
 .hb {transform: scale(0);}
