@@ -245,12 +245,6 @@ about {
 .about-content h2 {text-align: center;}
 .about-content h3 {text-align:justify;}
 
-.about-content:hover {
-    border-radius: 15px;
-    box-shadow: 0 0 30px rgba(100, 100, 100, .7);
-    background-color: rgba(10, 10, 10, .7);
-}
-
 .docs-content {
     position: relative;
     display: flex;
@@ -364,10 +358,6 @@ docs:hover {
     .calendar {left: -10px; justify-content: left;}
 }
 
-.calendar:hover {
-    background-color:rgba(0, 0, 0, .7);
-}
-
 .docs button {
     width: 100px;
     height: 40px;
@@ -438,7 +428,8 @@ docs:hover {
 }
 
 .window .icon-close:hover {
-    background: #c00000;
+    background: #c00000;     
+    box-shadow: 0 0 30px rgba(100, 100, 100, .8);
 }
 
 .about-content .icon-open {
@@ -459,7 +450,7 @@ docs:hover {
     margin-bottom: 0px;
     transition: .5s;
 }
-.icon-open:hover {background: #00508d;}
+.icon-open:hover {background: #00508d;     box-shadow: 0 0 30px rgba(100, 100, 100, .8);}
 
 .black {
     height: 100%;
