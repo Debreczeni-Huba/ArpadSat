@@ -128,7 +128,7 @@ header nav {
     display:block;
 }
 
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1540px) {
     header nav {
         display: none;
     }
@@ -432,6 +432,24 @@ docs:hover {
     box-shadow: 0 0 30px rgba(100, 100, 100, .8);
 }
 
+.about-content .icon-text {
+    position:relative;
+    background: #162938;
+    font-size: 1em;
+    color: #fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 10px;
+    cursor:pointer;
+    border: none;
+    z-index: 1;
+    margin: 10px;
+    margin-bottom: 0px;
+    transition: .5s;
+    text-decoration: none;
+    padding: 10px;
+}
 .about-content .icon-open {
     position:relative;
     width: 45px;
@@ -450,7 +468,7 @@ docs:hover {
     margin-bottom: 0px;
     transition: .5s;
 }
-.icon-open:hover {background: #00508d;     box-shadow: 0 0 30px rgba(100, 100, 100, .8);}
+.icon-open:hover, .icon-text:hover {background: #00508d;     box-shadow: 0 0 30px rgba(100, 100, 100, .8)}
 
 .black {
     height: 100%;
@@ -465,3 +483,5 @@ docs:hover {
     transition: opacity .5s;
 }
 .black.active{transform: scale(1); opacity: 100%; transition: opacity .5s;}
+
+ion-icon {padding: 5px;}
