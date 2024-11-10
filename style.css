@@ -101,6 +101,7 @@ header {
     position: absolute;
     left: 20px;
 }
+.navelem2 {display: flex;}
 
 .navetext {
     left: 40px;
@@ -125,7 +126,7 @@ header {
 
 header nav {
     transition: all .5s;
-    display:block;
+    display:flex;
 }
 
 @media only screen and (max-width: 1540px) {
@@ -264,11 +265,6 @@ about {
 .docs-content h2 {text-align: center;}
 .docs-content h3 {text-align:left; max-width: 80%;}
 
-.docs-content:hover {
-    border-radius: 15px;
-    box-shadow: 0 0 30px rgba(100, 100, 100, .7);
-    background-color: rgba(10, 10, 10, .7);
-}
 .dw-button {
     background: transparent;
     background-color: rgba(0, 160, 20, .3);
@@ -279,10 +275,12 @@ about {
     border: none;
     transition: .5s;
     font-size: 2em;
+    padding-left: 5px;
 }
 .dw-button:hover {
     background-color: rgba(0, 160, 20);
     color: black;
+    box-shadow: 0 0 30px rgba(100, 100, 100, .7);
 }
 
 .youtube{max-width: 1400px;}
@@ -325,10 +323,6 @@ docs {
     transition: .5s;
     margin: 10px;
 
-}
-
-docs:hover {
-    background-color:rgba(0, 0, 0, .7);
 }
 
 .calendar {
@@ -467,6 +461,7 @@ docs:hover {
     margin: 10px;
     margin-bottom: 0px;
     transition: .5s;
+    padding-left: 5px;
 }
 .icon-open:hover, .icon-text:hover {background: #00508d;     box-shadow: 0 0 30px rgba(100, 100, 100, .8)}
 
@@ -484,4 +479,4 @@ docs:hover {
 }
 .black.active{transform: scale(1); opacity: 100%; transition: opacity .5s;}
 
-ion-icon {padding: 5px;}
+ion-icon {padding-right: 5px;}
