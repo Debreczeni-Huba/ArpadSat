@@ -480,3 +480,5 @@ docs {
 .black.active{transform: scale(1); opacity: 100%; transition: opacity .5s;}
 
 ion-icon {padding-right: 5px;}
+
+.second-content {text-align: left;}
