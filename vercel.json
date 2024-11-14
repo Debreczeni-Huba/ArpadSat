@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "http://arpadsat.vercel.app", "destination": "https://arpadsat.vercel.app", "permanent": true }
+  ]
+}
