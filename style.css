@@ -286,8 +286,10 @@ about {
 .youtube{max-width: 1400px;}
 
 .about-intro {
-    min-width: 100%;
+    width: 100%;
 }
+
+@media only screen and (max-width: 1000px) {.about-intro{min-width: 100%;}}
 
 .about-intro h2 {
     margin-bottom: 10px;
@@ -384,7 +386,6 @@ docs {
 }
 .window h3 {
     margin: 15px;
-    margin-top:30px;
     color: #6bbfff;
 }
 .window p {margin:15px; color: #6bbfff;}
@@ -482,3 +483,11 @@ docs {
 ion-icon {padding-right: 5px;}
 
 .second-content {text-align: left;}
+
+.about-content .img43 {
+    position: relative;
+    display: flex;
+    max-width: 90%;
+}
+
+.csoportkep {max-width: 1000px;}
