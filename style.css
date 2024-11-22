@@ -56,6 +56,8 @@ body {
     top: -40px;
 }
 
+@supports (backdrop-filter: blur(20px)) {.header {backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);}}
+@supports not (backdrop-filter: blur(20px)) {.header {filter: url(#blur-filter);}}
 header {
     position:fixed;
     top: 0;
@@ -70,11 +72,12 @@ header {
     margin-bottom: 20px;
     background:transparent;
     background-color: rgba(0, 0, 0, .5);
-    backdrop-filter: blur(20px);
     transition: all .5s;
     box-shadow: 0 0 30px rgba(100, 100, 100, .8);
 }
 
+@supports (backdrop-filter: blur(20px)) {.header2 {backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);}}
+@supports not (backdrop-filter: blur(20px)) {.header2 {filter: url(#blur-filter);}}
 .header2 {
     background:transparent;
     background-color: rgba(0, 0, 0, .5);
@@ -364,6 +367,8 @@ docs {
     margin-top: 0px;
 }
 
+@supports (backdrop-filter: blur(20px)) {.window {backdrop-filter: blur(20px);-webkit-backdrop-filter: blur(20px);}}
+@supports not (backdrop-filter: blur(20px)) {.window {filter: url(#blur-filter);}}
 .window {
     position:fixed;
     width: 90%;
@@ -371,7 +376,6 @@ docs {
     max-height: 85%;
     top:120px;
     background:transparent;
-    backdrop-filter: blur(20px);
     background-color: rgba(40, 40, 40, .5);
     border: 2px solid rgba(100, 100, 100, .7);
     border-radius: 20px;
