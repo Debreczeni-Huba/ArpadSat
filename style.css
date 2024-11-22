@@ -368,6 +368,7 @@ docs {
     position:fixed;
     width: 90%;
     max-width: 1000px;
+    max-height: 85%;
     top:120px;
     background:transparent;
     backdrop-filter: blur(20px);
@@ -498,4 +499,4 @@ ion-icon {padding-right: 5px;}
 }
 }
 
-.text {display: flex; flex-direction: column;}
+.text {display: flex; flex-direction: column; position: relative; overflow-y: auto;}
